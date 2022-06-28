@@ -1,0 +1,48 @@
+/* <div class="board-square"> */
+.board {
+  width: 100%
+}
+.board-square {
+  padding: 20px;
+  border-color: black;
+  border-style: solid;
+  font-size: 50px;
+  text-align: center;
+  vertical-align: middle;
+  width: 0;
+}
+.winX {
+  background-color: green;
+  color: white;
+}
+.winO {
+  background-color: red;
+  color: white;
+}
+.board-square-x0y0 {
+  border-width: 0px 3px 3px 0px;
+}
+.board-square-x1y0 {
+  border-width: 0px 3px 3px 3px;
+}
+.board-square-x2y0 {
+  border-width: 0px 0px 3px 3px;
+}
+.board-square-x0y1 {
+  border-width: 3px 3px 3px 0px;
+}
+.board-square-x1y1 {
+  border-width: 3px;
+}
+.board-square-x2y1 {
+  border-width: 3px 0px 3px 3px;
+}
+.board-square-x0y2 {
+  border-width: 3px 3px 0px 0px;
+}
+.board-square-x1y2 {
+  border-width: 3px 3px 0px 3px;
+}
+.board-square-x2y2 {
+  border-width: 3px 0px 0px 3px;
+}
